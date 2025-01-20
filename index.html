@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Analysis App</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Add this to the <head> section of index.html -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Stock Analysis App</h1>
+  </header>
+  <main>
+    <section id="favorites-section">
+        <h2>Favorites</h2>
+        <ul id="favorites-list">
+          <!-- Favorite stocks will be displayed here -->
+        </ul>
+      </section>
+    <section id="stock-data">
+      <!-- Stock data will be displayed here -->
+    </section>
+    <section id="chart-section">
+      <h2>Stock Trend</h2>
+      <canvas id="stock-chart"></canvas>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
+
